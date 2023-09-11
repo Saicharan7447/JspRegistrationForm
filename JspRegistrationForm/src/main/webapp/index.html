@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration_Form</title>
+ <style>
+        .box{
+            border: solid 1px;
+            height: 400px;
+            width: 500px;
+            background-color: rgb(203, 199, 199);
+            margin-left: 300px;
+        }
+        table,td {
+  border: 1px solid rgb(162, 150, 150);
+  border-collapse: collapse;
+}
+button{
+    height: 25px;
+    width: 55px;
+    background-color:rgb(162, 150, 150) ;
+}
+    </style>
+</head>
+<body>
+<form action="NewFile.jsp">
+<div class="box">
+    <center><h1>Registration Form:</h1>
+    <table >
+        <tr>
+            <td><label for="">First Name :</label></td>
+            <td><input type="text"  name="fname" required ></td>
+        </tr>
+        <tr>
+            <td><label for="">Middle Name :</label></td>
+            <td><input type="text" name="mname" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Last Name :</label></td>
+            <td><input type="text" name="lname" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender :</label></td>
+            <td><input type="text" name="Gender"></td>    
+        </tr>
+        <tr>
+            <td><label for="">Date Of Birth :</label></td>
+            <td><input type="date" name="DOF" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile Number :</label></td>
+            <td><input type="text" name="Mobile" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Address :</label></td>
+            <td><input type="text" name="Address" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Higher Qualification :</label></td>
+            <td><input type="text" name="Higher" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Identification Marks :</label></td>
+            <td><input type="text" name="Marks" required></td>
+        </tr>       
+</div>
+</table><br>
+<input type="submit" value="Submit"> 
+</form>
+</body>
+</html>
